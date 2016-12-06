@@ -10271,16 +10271,13 @@ function modifyDOM() {
 
           		              downloadUrl(href, function(data2,statues,href2) {
                 		              if(data2.responseText.indexOf('Intel Core i5 2320 / 3 GHz processeur')!=-1){
-                		                  console.log("href2="+href2);
+                		                  console.log("href valide ="+href2);
                                       console.log(href2);
                                       console.log(data2.responseText.indexOf("Intel Core i5 2320 / 3 GHz processeur"));
 
                 		              }
                                   else{
-                                      console.log("bad"+href2);
-
-
-
+                                      //console.log("bad req"+href2);
                                   }
 
           		                });
